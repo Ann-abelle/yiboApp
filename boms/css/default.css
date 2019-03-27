@@ -1,0 +1,135 @@
+/*员工人数信息*/
+.staff{
+    padding-bottom:40px;
+}
+.staff_top{
+    padding-left:15px;
+}
+.staff_top a{
+    display:inline-block;
+    width:90px;
+    margin-right:20px;
+    height:28px;
+    border:1px solid #ccc;
+    border-radius:3px;
+    line-height:28px;
+    color:#666;
+    font-size:11px;
+    text-align:center;
+}
+.staff_top a em{
+    display:inline-block;
+    width:14px;
+    height:14px;
+    margin:-2px 6px 0 0;
+    vertical-align:middle;
+}
+.staff_top a em img{
+    width:20px;
+    height:18px;
+    margin-top:-3px;
+}
+.staff_top a:hover{
+    text-decoration:none;
+    color:#44b549;
+}
+.staff_top a:hover .pic_none{
+    display:block;
+}
+.staff_top a:hover .pic_block{
+    display:none;
+}
+.staff_bot{
+    overflow:hidden;
+    display:flex;
+    justify-content:space-around;
+    padding-top:30px;
+    width:100%;
+}
+.staff_info{
+    text-align:center;
+    color:#fff;
+    float:left;
+    width:30%;
+    height:75px;
+}
+.staff_top .pic_none{
+    display:none;
+}
+
+.staff_info:nth-of-type(1){
+   /* background: #54cff8;*/
+    background:url(../img/staff6.jpg) no-repeat top left;
+}
+.staff_info:nth-of-type(2){
+    /*background: #50d9a7;*/
+    background:url(../img/staff7.jpg) no-repeat top left;
+}
+.staff_info:nth-of-type(3){
+    /*background: #facb6d;*/
+    background:url(../img/staff8.jpg) no-repeat top left;
+}
+.staff_info p:first-child{
+    font-size:26px;
+    line-height:44px;
+}
+/*公告部分*/
+.Info{
+    float:right;
+    width:102%;
+    position:relative;
+    overflow:hidden;
+    /* border:1px solid #ccc;*/
+    margin-bottom:20px;
+}
+.InfoTop b{
+    text-align:center;
+    position:absolute;
+    font-size:24px;
+    font-weight:500;
+    top:30px;
+    left:30px;
+    right:0;
+    color:#f1992b;
+}
+.InfoTop img{
+    margin:6px 0 0 20px;
+    width:125px;
+    height:80px;
+}
+.InfoTop a{
+    float:right;
+    color:#44b549;
+    font-size:12px;
+    margin:6px 10px 0 0;
+}
+.InfoCon {
+    padding:10px 20px 20px 20px;
+}
+.InfoCon ul{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.InfoCon ul li{
+    float:left;
+    width:46%;
+}
+.InfoCon ul li a{
+    white-space:nowrap;
+    display:inline-block;
+    width:91%;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    color:#222;
+    line-height:15px;
+}
+.InfoCon ul li a:hover{
+    color:#44b549;
+    text-decoration:none;
+}
+.InfoCon ul li b {
+    color: #44b549;
+    font-size: 18px;
+    margin: -4px 6px 0 0;
+}

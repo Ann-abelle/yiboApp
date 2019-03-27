@@ -1,0 +1,217 @@
+@font-face {font-family: 'iconfont';
+    src: url('../myFont/iconfont.eot'); /* IE9*/
+    src: url('../myFont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../myFont/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../myFont/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../myFont/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+/* form input 表单*/
+ .app_label{
+     float:left;
+     padding-top: 4px;
+     position: relative;
+}
+.search{
+    background:#44b549;
+    border:0;
+    color:#fff;
+}
+.elements{
+    width:300px;
+    float:left;
+    min-height:30px;
+    line-height:28px;
+}
+.text{
+    float:left;
+    width:170px;
+    margin:2px 0 0 1px;
+    min-height:28px;
+    vertical-align:middle;
+    outline:0;
+    border:0;
+    padding:0 4px;
+}
+/*************************************/
+
+.input_wrap{
+    border:1px solid #e7e7eb;
+    float:left;
+}
+.input_wrap a{
+    background:#eee;
+    float:left;
+    font-size:25px;
+    line-height:28px;
+    width:30px;
+    text-align:center;
+    text-decoration: none;
+    padding-top:2px;
+    display:inline-block;
+    min-height:28px;
+}
+.input_wrap a img{
+    margin-top:2px;
+    width:20px;
+    min-height:20px;
+}
+/*背景层*/
+.popLayer {
+    display: none;
+    background-color: #B3B3B3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=80);/* 只支持IE6、7、8、9 */
+}
+
+/*弹出层*/
+
+.popBox {
+    display: none;
+    background-color: #FFFFFF;
+    z-index: 10;
+    width: 500px;
+    height: 530px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.popBox .close{
+    overflow:hidden;
+    text-align: right;
+    background-color: #F8F8F8;
+    padding:13px;
+    font-size:14px;
+}
+/*关闭按钮*/
+
+.popBox .close a {
+    text-decoration: none;
+    color: #2D2C3B;
+}
+.close span{
+    float:left;
+}
+.search-form{
+    padding:15px;
+}
+.search-elements{
+    float:left;
+
+}
+.search-elements label{
+    margin-right:12px;
+    font-size:14px;
+    color:#666;
+    line-height: 30px;
+    width: 52px;
+    vertical-align: middle;
+}
+.search-line{
+    overflow:hidden;
+    margin-bottom:10px;
+}
+.search-elements select,.search-elements input{
+    vertical-align: middle;
+    width:98px;
+    height:26px;
+    padding-left:4px;
+    outline:0;
+    border:1px solid #eee;
+    margin-right:10px;
+}
+.search-line .search-elements .sou{
+    width:210px;
+}
+.search-app{
+    height:30px;
+    width:120px;
+}
+.search-line .search-elements .name{
+    width:340px;
+    background:#eee;
+}
+.list{
+    padding:0;
+    border:1px solid #ccc;
+    background:#eee;
+    height:250px;
+    overflow:auto;
+}
+.list li{
+    width:47.5%;
+    list-style: none;
+    float:left;
+    margin-top:6px;
+    padding-left:10px;
+}
+.list li a{
+    text-decoration:none;
+    display:inline-block;
+    font-size:12px;
+    color:#666;
+    font-weight:500;
+    height:20px;
+}
+.list li span{
+    float:left;
+    color: #ffa530;
+    display:inline-block;
+    margin-right:6px;
+    padding-top:4px;
+    height:8px;
+}
+.solid{
+    width:100%;
+    height:10px;
+    margin-bottom:15px;
+}
+.solid hr{
+    margin-top:4px;
+    display:inline-block;
+    width:447px;
+    float:left;
+    border:0.5px dashed #ccc;
+}
+.solid em{
+    display:inline-block;
+    border:1px solid #ccc;
+    float:left;
+    width:8px;
+    height:8px;
+    border-radius:50%;
+}
+.option a{
+    display: inline-block;
+    width: 70px;
+    height: 32px;
+    margin-right: 10px;
+    line-height: 32px;
+    text-align: center;
+    border: 1px solid #3c8ee0;
+    background: #f5fbff;
+    color: #3c8ee0;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.option a:nth-of-type(2){
+    background:#eaeaea;
+    border:1px solid #ccc;
+}
+.option{
+    width:180px;
+    margin:0 auto;
+}
+.close .option a:hover{
+    color:#3c8ee0;
+    text-decoration:blink;
+}

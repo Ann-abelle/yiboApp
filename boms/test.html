@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p {
+            width: 3px;
+            height: 3px;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="点击" id="text">
+
+</body>
+<script>
+    var Input=document.getElementById("text");
+    var body=document.getElementsByTagName("body");
+    console.log(body);
+    Input.onclick=function(){
+        var body=document.getElementsByTagName("body");
+        var p=document.createElement("p");
+        body.appendChild(p);
+
+    }
+</script>
+</html>
